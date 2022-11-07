@@ -3,6 +3,7 @@
     --primary-back-ground-color:#F5F5F5;
     --accent-color:#2196F3;
     --secondary-text-color:#212121;
+    --svg-color: #AFB1B8;
 }
 
 /* Сброс отступов */
@@ -363,7 +364,7 @@ a {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    fill: #AFB1B8;
+    fill: var(--svg-color);
 }
 
 .social-icon {
@@ -408,8 +409,8 @@ a {
     display: flex;
     align-items: center; 
     justify-content: center;
-    color:  #AFB1B8;
-    border: 1px solid #AFB1B8; 
+    color: var(--svg-color);
+    border: 1px solid var(--svg-color); 
     border-radius: 4px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -524,7 +525,7 @@ a {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    fill: #AFB1B8;
+    fill: var(--svg-color);
 }
 
 
